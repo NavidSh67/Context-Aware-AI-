@@ -1,0 +1,112 @@
+{
+  "entities": {
+    "Christopher_Nolan": {
+      "type": "PERSON",
+      "role": "DIRECTOR",
+      "birth_year": 1970,
+      "nationality": "British",
+      "fame_score": 9.5
+    },
+    "Oppenheimer": {
+      "type": "MOVIE",
+      "release_year": 2023,
+      "genre": ["Biography", "Drama", "Thriller"],
+      "duration_minutes": 180,
+      "rating": 8.3
+    },
+    "Inception": {
+      "type": "MOVIE",
+      "release_year": 2010,
+      "genre": ["Sci-Fi", "Action", "Thriller"],
+      "duration_minutes": 148,
+      "rating": 8.8
+    },
+    "Interstellar": {
+      "type": "MOVIE",
+      "release_year": 2014,
+      "genre": ["Sci-Fi", "Drama"],
+      "duration_minutes": 169,
+      "rating": 8.6
+    },
+    "The_Dark_Knight": {
+      "type": "MOVIE",
+      "release_year": 2008,
+      "genre": ["Action", "Crime", "Drama"],
+      "duration_minutes": 152,
+      "rating": 9.0
+    },
+    "Cillian_Murphy": {
+      "type": "PERSON",
+      "role": "ACTOR",
+      "birth_year": 1976,
+      "nationality": "Irish",
+      "fame_score": 8.2
+    },
+    "Leonardo_DiCaprio": {
+      "type": "PERSON",
+      "role": "ACTOR",
+      "birth_year": 1974,
+      "nationality": "American",
+      "fame_score": 9.8
+    },
+    "Matthew_McConaughey": {
+      "type": "PERSON",
+      "role": "ACTOR",
+      "birth_year": 1969,
+      "nationality": "American",
+      "fame_score": 8.5
+    }
+  },
+  "relationships": [
+    {
+      "subject": "Christopher_Nolan",
+      "predicate": "DIRECTED",
+      "object": "Oppenheimer"
+    },
+    {
+      "subject": "Christopher_Nolan",
+      "predicate": "DIRECTED",
+      "object": "Inception"
+    },
+    {
+      "subject": "Christopher_Nolan",
+      "predicate": "DIRECTED",
+      "object": "Interstellar"
+    },
+    {
+      "subject": "Christopher_Nolan",
+      "predicate": "DIRECTED",
+      "object": "The_Dark_Knight"
+    },
+    {
+      "subject": "Cillian_Murphy",
+      "predicate": "STARRED_IN",
+      "object": "Oppenheimer"
+    },
+    {
+      "subject": "Leonardo_DiCaprio",
+      "predicate": "STARRED_IN",
+      "object": "Inception"
+    },
+    {
+      "subject": "Matthew_McConaughey",
+      "predicate": "STARRED_IN",
+      "object": "Interstellar"
+    },
+    {
+      "subject": "Oppenheimer",
+      "predicate": "NOMINATED_FOR",
+      "object": "Academy_Award"
+    },
+    {
+      "subject": "Inception",
+      "predicate": "WON",
+      "object": "Academy_Award"
+    },
+    {
+      "subject": "Interstellar",
+      "predicate": "GENRE",
+      "object": "Space_Drama"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+openai
+anthropic
+python-dotenv
+tiktoken
+numpy
+matplotlib
+networkx
