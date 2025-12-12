@@ -75,9 +75,6 @@ Combine structured knowledge graphs with unstructured documents for superior AI 
 ```bash
 # Python 3.8+
 python --version
-
-# Install dependencies
-pip install -r requirements.txt
 ```
 
 ### Setup
@@ -85,6 +82,18 @@ pip install -r requirements.txt
 # Clone the repository
 git clone <your-repo-url>
 cd Context-Aware
+
+# Create and activate virtual environment (recommended)
+python -m venv venv
+
+# Activate virtual environment
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+
+# Install dependencies
+pip install -r requirements.txt
 
 # Create .env file
 echo "OPENAI_API_KEY=your_api_key_here" > .env
