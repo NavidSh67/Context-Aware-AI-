@@ -77,7 +77,7 @@ Combine structured knowledge graphs with unstructured documents for superior AI 
 python --version
 
 # Install dependencies
-pip install openai python-dotenv
+pip install -r requirements.txt
 ```
 
 ### Setup
